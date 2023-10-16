@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<flow id="c9bf9204-6a86-4de1-9efa-d2e998472424">
-  <descriptionCdata><![CDATA[c9bf9204-6a86-4de1-9efa-d2e998472424.58c8b382-d7e5-459d-953b-db7f892d6d85.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
-c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
+<flow id="bf9642ab-c7e8-4383-8255-ff95d7be4bbb">
+  <descriptionCdata><![CDATA[bf9642ab-c7e8-4383-8255-ff95d7be4bbb.45b0ab2f-f412-4fb3-bef8-b6222eab34d2.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
+bf9642ab-c7e8-4383-8255-ff95d7be4bbb.a9be663d-555a-4a8c-8527-b8b69a75efb3.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
 ]]></descriptionCdata>
   <annotation></annotation>
-  <name>abc</name>
+  <name>jhgjhgj</name>
   <categories/>
   <inputs/>
   <possibleResponses>
-    <opResponse id="f67eb305-23b9-4e6a-9b34-8b50e97bda4f">
-      <annotation></annotation>
-      <name>failure</name>
-      <isDefault>false</isDefault>
-      <onFailure>true</onFailure>
-      <type>ERROR</type>
-      <matchRules/>
-    </opResponse>
-    <opResponse id="a703dcdd-a1c7-49e0-a278-20245864d5af">
+    <opResponse id="91b8b66e-5f4c-4ba0-9f0e-bf644f95a27a">
       <annotation></annotation>
       <name>success</name>
       <isDefault>true</isDefault>
@@ -24,16 +16,24 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <type>RESOLVED</type>
       <matchRules/>
     </opResponse>
+    <opResponse id="28881086-a28f-4295-9954-84995cb023db">
+      <annotation></annotation>
+      <name>failure</name>
+      <isDefault>false</isDefault>
+      <onFailure>true</onFailure>
+      <type>ERROR</type>
+      <matchRules/>
+    </opResponse>
   </possibleResponses>
   <availableResultExpressions/>
-  <resultExpression id="2cc7f76b-918b-4ef0-a2c2-ec709824ba49">
+  <resultExpression id="bb58b217-0b9a-454c-9ec9-e69dba2977f9">
     <annotation></annotation>
     <name>FailureMessage</name>
     <fieldName>FailureMessage</fieldName>
     <sourceType>RAWRESULT</sourceType>
     <filters/>
   </resultExpression>
-  <iconSpec id="5110a5a8-449e-4ff2-a65c-58dba0dc5183">
+  <iconSpec id="55daba53-c67e-4cad-a7a8-133436ae1b76">
     <baseIcon>flow.png</baseIcon>
     <basePath>System</basePath>
     <readOnly>false</readOnly>
@@ -44,12 +44,12 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
   <compatibleRuntimeContext>false</compatibleRuntimeContext>
   <historyCheckPointFlow>true</historyCheckPointFlow>
   <steps>
-    <step id="58c8b382-d7e5-459d-953b-db7f892d6d85">
-      <annotation>c9bf9204-6a86-4de1-9efa-d2e998472424.58c8b382-d7e5-459d-953b-db7f892d6d85.description</annotation>
+    <step id="45b0ab2f-f412-4fb3-bef8-b6222eab34d2">
+      <annotation>bf9642ab-c7e8-4383-8255-ff95d7be4bbb.45b0ab2f-f412-4fb3-bef8-b6222eab34d2.description</annotation>
       <name>Generate Random Number</name>
       <bounds>
-        <x>228.0</x>
-        <y>211.0</y>
+        <x>330.0</x>
+        <y>120.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>
@@ -66,7 +66,7 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <scriptResultStep>false</scriptResultStep>
       <userPrompt></userPrompt>
       <bindings>
-        <userInputBinding id="a9da9817-50b5-4cb3-9c60-04a536cfa344">
+        <userInputBinding id="3adde353-caf0-4e1d-9bab-5c27f262c9b6">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
@@ -81,7 +81,7 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
           <isMultiSelect>false</isMultiSelect>
           <sourceDelimiter>|</sourceDelimiter>
         </userInputBinding>
-        <userInputBinding id="4be2596d-8cc1-4e1b-9960-084ea74296a4">
+        <userInputBinding id="8a8f4d57-e78e-41df-98a1-edf33239b761">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
@@ -98,36 +98,7 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
         </userInputBinding>
       </bindings>
       <transitions>
-        <transition id="1cf24da7-4324-4054-a9a6-23cf4e2ee114">
-          <annotation></annotation>
-          <name>success</name>
-          <command>NEXT</command>
-          <linkMode>false</linkMode>
-          <responseSymbol>success</responseSymbol>
-          <shouldHandoff>false</shouldHandoff>
-          <transitionValue>0.0</transitionValue>
-          <destination>
-            <refId>a9697611-619a-4470-828c-9ee917cb20b3</refId>
-          </destination>
-          <source>
-            <refId>58c8b382-d7e5-459d-953b-db7f892d6d85</refId>
-          </source>
-          <positions>
-            <point>
-              <x>278.0</x>
-              <y>245.0</y>
-            </point>
-            <point>
-              <x>422.0</x>
-              <y>452.0</y>
-            </point>
-          </positions>
-          <labelPosition>
-            <x>333.0</x>
-            <y>0.0</y>
-          </labelPosition>
-        </transition>
-        <transition id="3edc9591-f265-4664-b76c-b8c3ac117e70">
+        <transition id="6c8e384d-e97c-4cae-a94a-25b85de99c76">
           <annotation></annotation>
           <name>failure</name>
           <command>NEXT</command>
@@ -136,19 +107,48 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
           <shouldHandoff>false</shouldHandoff>
           <transitionValue>0.0</transitionValue>
           <destination>
-            <refId>ebc8cfdb-e259-4c48-a41c-e3b35137694c</refId>
+            <refId>877c6da3-567e-4521-a0e5-62afd15fa71e</refId>
           </destination>
           <source>
-            <refId>58c8b382-d7e5-459d-953b-db7f892d6d85</refId>
+            <refId>45b0ab2f-f412-4fb3-bef8-b6222eab34d2</refId>
           </source>
           <positions>
             <point>
-              <x>278.0</x>
-              <y>245.0</y>
+              <x>402.0</x>
+              <y>187.0</y>
             </point>
             <point>
-              <x>135.0</x>
-              <y>367.0</y>
+              <x>259.0</x>
+              <y>309.0</y>
+            </point>
+          </positions>
+          <labelPosition>
+            <x>333.0</x>
+            <y>0.0</y>
+          </labelPosition>
+        </transition>
+        <transition id="7a817584-688a-4d6e-b22e-b414c2315055">
+          <annotation></annotation>
+          <name>success</name>
+          <command>NEXT</command>
+          <linkMode>false</linkMode>
+          <responseSymbol>success</responseSymbol>
+          <shouldHandoff>false</shouldHandoff>
+          <transitionValue>0.0</transitionValue>
+          <destination>
+            <refId>a9be663d-555a-4a8c-8527-b8b69a75efb3</refId>
+          </destination>
+          <source>
+            <refId>45b0ab2f-f412-4fb3-bef8-b6222eab34d2</refId>
+          </source>
+          <positions>
+            <point>
+              <x>402.0</x>
+              <y>187.0</y>
+            </point>
+            <point>
+              <x>546.0</x>
+              <y>394.0</y>
             </point>
           </positions>
           <labelPosition>
@@ -164,12 +164,100 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <assignments/>
       <throttleSize>0</throttleSize>
     </step>
-    <step id="a9697611-619a-4470-828c-9ee917cb20b3">
-      <annotation>c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.description</annotation>
+    <returnStep id="902b7c9d-ea73-41d4-a9b7-cdc5096ad77b">
+      <annotation></annotation>
+      <name>Resolved : success</name>
+      <bounds>
+        <x>660.0</x>
+        <y>90.0</y>
+      </bounds>
+      <layer>-1</layer>
+      <hideInbound>false</hideInbound>
+      <addResultToRunContext>false</addResultToRunContext>
+      <isCriticalStep>false</isCriticalStep>
+      <isNonBlocking>false</isNonBlocking>
+      <isParallelStep>false</isParallelStep>
+      <isSingleResponse>false</isSingleResponse>
+      <recordInHistory>false</recordInHistory>
+      <recordRawOutput>true</recordRawOutput>
+      <recordPrimaryOutput>true</recordPrimaryOutput>
+      <checkPointStep>true</checkPointStep>
+      <historyCheckPointStep>true</historyCheckPointStep>
+      <scriptResultStep>false</scriptResultStep>
+      <userPrompt></userPrompt>
+      <bindings/>
+      <transitions>
+        <transition id="55d87c91-f44d-49f2-9460-3d5dde535f3b">
+          <annotation></annotation>
+          <name>return</name>
+          <command>NEXT</command>
+          <linkMode>false</linkMode>
+          <responseSymbol>success</responseSymbol>
+          <shouldHandoff>false</shouldHandoff>
+          <transitionValue>0.0</transitionValue>
+          <destination>
+            <refId>902b7c9d-ea73-41d4-a9b7-cdc5096ad77b</refId>
+          </destination>
+          <source>
+            <refId>902b7c9d-ea73-41d4-a9b7-cdc5096ad77b</refId>
+          </source>
+          <positions/>
+        </transition>
+      </transitions>
+      <properties/>
+      <returnStepType>RESOLVED</returnStepType>
+      <assignments/>
+    </returnStep>
+    <returnStep id="877c6da3-567e-4521-a0e5-62afd15fa71e">
+      <annotation></annotation>
+      <name>Error : failure</name>
+      <bounds>
+        <x>180.0</x>
+        <y>240.0</y>
+      </bounds>
+      <layer>-1</layer>
+      <hideInbound>false</hideInbound>
+      <addResultToRunContext>false</addResultToRunContext>
+      <isCriticalStep>false</isCriticalStep>
+      <isNonBlocking>false</isNonBlocking>
+      <isParallelStep>false</isParallelStep>
+      <isSingleResponse>false</isSingleResponse>
+      <recordInHistory>false</recordInHistory>
+      <recordRawOutput>true</recordRawOutput>
+      <recordPrimaryOutput>true</recordPrimaryOutput>
+      <checkPointStep>true</checkPointStep>
+      <historyCheckPointStep>true</historyCheckPointStep>
+      <scriptResultStep>false</scriptResultStep>
+      <userPrompt></userPrompt>
+      <bindings/>
+      <transitions>
+        <transition id="8a5ea31f-3230-469d-bdfc-eccab7f0acad">
+          <annotation></annotation>
+          <name>return</name>
+          <command>NEXT</command>
+          <linkMode>false</linkMode>
+          <responseSymbol>failure</responseSymbol>
+          <shouldHandoff>false</shouldHandoff>
+          <transitionValue>0.0</transitionValue>
+          <destination>
+            <refId>877c6da3-567e-4521-a0e5-62afd15fa71e</refId>
+          </destination>
+          <source>
+            <refId>877c6da3-567e-4521-a0e5-62afd15fa71e</refId>
+          </source>
+          <positions/>
+        </transition>
+      </transitions>
+      <properties/>
+      <returnStepType>ERROR</returnStepType>
+      <assignments/>
+    </returnStep>
+    <step id="a9be663d-555a-4a8c-8527-b8b69a75efb3">
+      <annotation>bf9642ab-c7e8-4383-8255-ff95d7be4bbb.a9be663d-555a-4a8c-8527-b8b69a75efb3.description</annotation>
       <name>Random Number Generator</name>
       <bounds>
-        <x>372.0</x>
-        <y>418.0</y>
+        <x>480.0</x>
+        <y>330.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>
@@ -186,7 +274,7 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <scriptResultStep>false</scriptResultStep>
       <userPrompt></userPrompt>
       <bindings>
-        <userInputBinding id="c0e03be0-e6bd-4602-a4c0-97df18190e67">
+        <userInputBinding id="eb64b93b-f673-4e31-a6ce-75dcacf295f7">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
@@ -201,7 +289,7 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
           <isMultiSelect>false</isMultiSelect>
           <sourceDelimiter>|</sourceDelimiter>
         </userInputBinding>
-        <userInputBinding id="8ab5f119-8826-489f-988d-13fd5f1f5c1e">
+        <userInputBinding id="38483525-604a-497a-8c62-c8a8f1e1ba2e">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
@@ -218,36 +306,7 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
         </userInputBinding>
       </bindings>
       <transitions>
-        <transition id="7803d421-bd9b-45a5-b612-04e84ce81cb0">
-          <annotation></annotation>
-          <name>success</name>
-          <command>NEXT</command>
-          <linkMode>false</linkMode>
-          <responseSymbol>success</responseSymbol>
-          <shouldHandoff>false</shouldHandoff>
-          <transitionValue>0.0</transitionValue>
-          <destination>
-            <refId>e85dbec3-1c95-4426-a572-36cdba5374e9</refId>
-          </destination>
-          <source>
-            <refId>a9697611-619a-4470-828c-9ee917cb20b3</refId>
-          </source>
-          <positions>
-            <point>
-              <x>422.0</x>
-              <y>452.0</y>
-            </point>
-            <point>
-              <x>611.0</x>
-              <y>199.0</y>
-            </point>
-          </positions>
-          <labelPosition>
-            <x>333.0</x>
-            <y>0.0</y>
-          </labelPosition>
-        </transition>
-        <transition id="9366393b-1ce2-425f-ae8a-ee4fed2dbaf6">
+        <transition id="9742a708-b812-4b28-a6f9-a5a06f192827">
           <annotation></annotation>
           <name>failure</name>
           <command>NEXT</command>
@@ -256,19 +315,48 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
           <shouldHandoff>false</shouldHandoff>
           <transitionValue>0.0</transitionValue>
           <destination>
-            <refId>ebc8cfdb-e259-4c48-a41c-e3b35137694c</refId>
+            <refId>877c6da3-567e-4521-a0e5-62afd15fa71e</refId>
           </destination>
           <source>
-            <refId>a9697611-619a-4470-828c-9ee917cb20b3</refId>
+            <refId>a9be663d-555a-4a8c-8527-b8b69a75efb3</refId>
           </source>
           <positions>
             <point>
-              <x>422.0</x>
-              <y>452.0</y>
+              <x>546.0</x>
+              <y>394.0</y>
             </point>
             <point>
-              <x>135.0</x>
-              <y>367.0</y>
+              <x>259.0</x>
+              <y>309.0</y>
+            </point>
+          </positions>
+          <labelPosition>
+            <x>333.0</x>
+            <y>0.0</y>
+          </labelPosition>
+        </transition>
+        <transition id="073724a1-aeaf-4d33-a58e-e1fd6408eba2">
+          <annotation></annotation>
+          <name>success</name>
+          <command>NEXT</command>
+          <linkMode>false</linkMode>
+          <responseSymbol>success</responseSymbol>
+          <shouldHandoff>false</shouldHandoff>
+          <transitionValue>0.0</transitionValue>
+          <destination>
+            <refId>902b7c9d-ea73-41d4-a9b7-cdc5096ad77b</refId>
+          </destination>
+          <source>
+            <refId>a9be663d-555a-4a8c-8527-b8b69a75efb3</refId>
+          </source>
+          <positions>
+            <point>
+              <x>546.0</x>
+              <y>394.0</y>
+            </point>
+            <point>
+              <x>735.0</x>
+              <y>141.0</y>
             </point>
           </positions>
           <labelPosition>
@@ -284,94 +372,6 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <assignments/>
       <throttleSize>0</throttleSize>
     </step>
-    <returnStep id="ebc8cfdb-e259-4c48-a41c-e3b35137694c">
-      <annotation></annotation>
-      <name>Error : failure</name>
-      <bounds>
-        <x>85.0</x>
-        <y>333.0</y>
-      </bounds>
-      <layer>-1</layer>
-      <hideInbound>false</hideInbound>
-      <addResultToRunContext>false</addResultToRunContext>
-      <isCriticalStep>false</isCriticalStep>
-      <isNonBlocking>false</isNonBlocking>
-      <isParallelStep>false</isParallelStep>
-      <isSingleResponse>false</isSingleResponse>
-      <recordInHistory>false</recordInHistory>
-      <recordRawOutput>true</recordRawOutput>
-      <recordPrimaryOutput>true</recordPrimaryOutput>
-      <checkPointStep>true</checkPointStep>
-      <historyCheckPointStep>true</historyCheckPointStep>
-      <scriptResultStep>false</scriptResultStep>
-      <userPrompt></userPrompt>
-      <bindings/>
-      <transitions>
-        <transition id="74f94da0-ccbb-49cf-ae2f-f42c2e173f25">
-          <annotation></annotation>
-          <name>return</name>
-          <command>NEXT</command>
-          <linkMode>false</linkMode>
-          <responseSymbol>failure</responseSymbol>
-          <shouldHandoff>false</shouldHandoff>
-          <transitionValue>0.0</transitionValue>
-          <destination>
-            <refId>ebc8cfdb-e259-4c48-a41c-e3b35137694c</refId>
-          </destination>
-          <source>
-            <refId>ebc8cfdb-e259-4c48-a41c-e3b35137694c</refId>
-          </source>
-          <positions/>
-        </transition>
-      </transitions>
-      <properties/>
-      <returnStepType>ERROR</returnStepType>
-      <assignments/>
-    </returnStep>
-    <returnStep id="e85dbec3-1c95-4426-a572-36cdba5374e9">
-      <annotation></annotation>
-      <name>Resolved : success</name>
-      <bounds>
-        <x>561.0</x>
-        <y>165.0</y>
-      </bounds>
-      <layer>-1</layer>
-      <hideInbound>false</hideInbound>
-      <addResultToRunContext>false</addResultToRunContext>
-      <isCriticalStep>false</isCriticalStep>
-      <isNonBlocking>false</isNonBlocking>
-      <isParallelStep>false</isParallelStep>
-      <isSingleResponse>false</isSingleResponse>
-      <recordInHistory>false</recordInHistory>
-      <recordRawOutput>true</recordRawOutput>
-      <recordPrimaryOutput>true</recordPrimaryOutput>
-      <checkPointStep>true</checkPointStep>
-      <historyCheckPointStep>true</historyCheckPointStep>
-      <scriptResultStep>false</scriptResultStep>
-      <userPrompt></userPrompt>
-      <bindings/>
-      <transitions>
-        <transition id="2064cca1-4548-463d-b4f7-a726fec85d7d">
-          <annotation></annotation>
-          <name>return</name>
-          <command>NEXT</command>
-          <linkMode>false</linkMode>
-          <responseSymbol>success</responseSymbol>
-          <shouldHandoff>false</shouldHandoff>
-          <transitionValue>0.0</transitionValue>
-          <destination>
-            <refId>e85dbec3-1c95-4426-a572-36cdba5374e9</refId>
-          </destination>
-          <source>
-            <refId>e85dbec3-1c95-4426-a572-36cdba5374e9</refId>
-          </source>
-          <positions/>
-        </transition>
-      </transitions>
-      <properties/>
-      <returnStepType>RESOLVED</returnStepType>
-      <assignments/>
-    </returnStep>
   </steps>
-  <startSteps>58c8b382-d7e5-459d-953b-db7f892d6d85</startSteps>
+  <startSteps>45b0ab2f-f412-4fb3-bef8-b6222eab34d2</startSteps>
 </flow>
