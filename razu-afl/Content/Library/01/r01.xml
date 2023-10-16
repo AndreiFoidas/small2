@@ -3049,8 +3049,8 @@ user = scriptletContext.getSystemAccountUsername(&quot;accounts/myaccount&quot;)
       <annotation>572ea18f-d7d0-4c3b-999b-b44053ac94bf.2d41db89-6a3f-4b9f-9e8b-a128f9caffc4.description</annotation>
       <name>Get Percent DPC</name>
       <bounds>
-        <x>234.0</x>
-        <y>45.0</y>
+        <x>269.0</x>
+        <y>35.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>

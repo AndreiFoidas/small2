@@ -214,8 +214,8 @@
       <annotation>041b3fd8-8923-4de4-a650-9c271f829f9d.6a97b780-79e9-4255-86e3-4b08bbf5a309.description</annotation>
       <name>Random Number Generator</name>
       <bounds>
-        <x>101.0</x>
-        <y>81.0</y>
+        <x>175.0</x>
+        <y>196.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>

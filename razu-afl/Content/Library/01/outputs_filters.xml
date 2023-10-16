@@ -121,8 +121,8 @@
       <annotation>41f7a6f0-1ded-4d31-aa9a-f0f9b1666f85.00f88a45-5be2-41b4-b337-a03d972e26e0.description</annotation>
       <name>Random Number Generator</name>
       <bounds>
-        <x>59.0</x>
-        <y>104.0</y>
+        <x>134.0</x>
+        <y>61.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>

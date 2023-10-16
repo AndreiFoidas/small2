@@ -186,8 +186,8 @@ result $= scriptletRawResult[&apos;Result&apos;]; </script>
       <annotation>12608ef1-d2e5-4c9b-9058-31cbb9aee43f.69c528a4-c629-40ea-895d-d993e48f7154.description</annotation>
       <name>Write to File</name>
       <bounds>
-        <x>347.0</x>
-        <y>243.0</y>
+        <x>281.0</x>
+        <y>175.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>

@@ -410,8 +410,8 @@ user = scriptletContext.getSystemAccountUsername(&quot;accounts/myaccount&quot;)
       <annotation>8f8156b0-25f5-4cd5-bc09-9a7350ef4836.840d42d1-30fd-4b73-a148-d896c024ba00.description</annotation>
       <name>How do I- Create a parallel flow</name>
       <bounds>
-        <x>313.0</x>
-        <y>7.0</y>
+        <x>474.0</x>
+        <y>38.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>
