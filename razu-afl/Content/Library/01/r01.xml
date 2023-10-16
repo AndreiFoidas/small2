@@ -32,7 +32,7 @@
 572ea18f-d7d0-4c3b-999b-b44053ac94bf.dfe7be41-c070-4afe-ad7e-0a9c04bdbfdf.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
 572ea18f-d7d0-4c3b-999b-b44053ac94bf.e8092e2a-1821-4053-be71-fabe48825913.description=MID\nASDAS\nDAS\nD,OASD\nASD\nAS\nDAS\nD\nASD\nAS\nDAS\nD\nASD\nAS\nD\nASD\nAS\nD\nASD\nAS\nD\nAS\nDAS\nD\nAS\nDAS\nD\nAS\nDAS\nD\nAS\nDAS\nDAS\nD\nAS\nDAS\nDAS
 572ea18f-d7d0-4c3b-999b-b44053ac94bf.e867c080-f3dc-4c42-9df0-828bf1955cfd.prompt=ok
-572ea18f-d7d0-4c3b-999b-b44053ac94bf.fb741373-0bdb-4c0c-8971-66fd8a70ceb6.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
+572ea18f-d7d0-4c3b-999b-b44053ac94bf.fb741373-0bdb-4c0c-8971-66fd8a70ceb6.description=<pre>Generates a random number.\n\nInputsa\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
 ]]></descriptionCdata>
   <annotation>572ea18f-d7d0-4c3b-999b-b44053ac94bf.description</annotation>
   <name>r01</name>

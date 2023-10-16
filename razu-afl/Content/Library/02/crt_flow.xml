@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flow id="b946af6f-e321-4ae0-a052-b88bc2006e31">
-  <descriptionCdata><![CDATA[b946af6f-e321-4ae0-a052-b88bc2006e31.67c598ef-87bd-4e69-9510-c7e0af7e9658.description=<pre>Creates (recursively or not) a directory.\n\nInput Parameters\:\npath - The path of the directory to create.\n\nResponses\:\nsuccess - Directory Created.\nfailure - Something went wrong.\n</pre>
+  <descriptionCdata><![CDATA[b946af6f-e321-4ae0-a052-b88bc2006e31.67c598ef-87bd-4e69-9510-c7e0af7e9658.description=<pre>Creates (reacursively or not) a directory.\n\nInput Parameters\:\npath - The path of the directory to create.\n\nResponses\:\nsuccess - Directory Created.\nfailure - Something went wrong.\n</pre>
 ]]></descriptionCdata>
   <annotation></annotation>
   <name>crt_flow</name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <operation id="7f164601-3d26-4c0c-ac80-15a15d281119">
-  <descriptionCdata><![CDATA[7f164601-3d26-4c0c-ac80-15a15d281119.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
+  <descriptionCdata><![CDATA[7f164601-3d26-4c0c-ac80-15a15d281119.description=<pre>Generates a random nuamber.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
 ]]></descriptionCdata>
   <annotation>7f164601-3d26-4c0c-ac80-15a15d281119.description</annotation>
   <name>Random Number Generator</name>

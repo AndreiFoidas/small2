@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flow id="41f7a6f0-1ded-4d31-aa9a-f0f9b1666f85">
-  <descriptionCdata><![CDATA[41f7a6f0-1ded-4d31-aa9a-f0f9b1666f85.00f88a45-5be2-41b4-b337-a03d972e26e0.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
+  <descriptionCdata><![CDATA[41f7a6f0-1ded-4d31-aa9a-f0f9b1666f85.00f88a45-5be2-41b4-b337-a03d972e26e0.description=<pre>Generates a random number.\n\nInputs\:\nmaax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
 ]]></descriptionCdata>
   <annotation></annotation>
   <name>outputs_filters</name>
