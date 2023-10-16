@@ -48,8 +48,8 @@
       <annotation>90b48bd0-eedc-412b-8f14-477bf781b6a8.fa6b339a-dea4-4647-8aec-1c8fa8399c39.description</annotation>
       <name>Generate Random Number</name>
       <bounds>
-        <x>294.0</x>
-        <y>333.0</y>
+        <x>300.0</x>
+        <y>60.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>
