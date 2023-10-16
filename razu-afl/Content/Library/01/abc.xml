@@ -48,8 +48,8 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <annotation>c9bf9204-6a86-4de1-9efa-d2e998472424.58c8b382-d7e5-459d-953b-db7f892d6d85.description</annotation>
       <name>Generate Random Number</name>
       <bounds>
-        <x>228.0</x>
-        <y>211.0</y>
+        <x>240.0</x>
+        <y>182.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>
@@ -168,8 +168,8 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <annotation>c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.description</annotation>
       <name>Random Number Generator</name>
       <bounds>
-        <x>372.0</x>
-        <y>418.0</y>
+        <x>384.0</x>
+        <y>389.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>
@@ -288,8 +288,8 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <annotation></annotation>
       <name>Error : failure</name>
       <bounds>
-        <x>85.0</x>
-        <y>333.0</y>
+        <x>97.0</x>
+        <y>304.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>
@@ -332,8 +332,8 @@ c9bf9204-6a86-4de1-9efa-d2e998472424.a9697611-619a-4470-828c-9ee917cb20b3.descri
       <annotation></annotation>
       <name>Resolved : success</name>
       <bounds>
-        <x>561.0</x>
-        <y>165.0</y>
+        <x>573.0</x>
+        <y>136.0</y>
       </bounds>
       <layer>-1</layer>
       <hideInbound>false</hideInbound>
