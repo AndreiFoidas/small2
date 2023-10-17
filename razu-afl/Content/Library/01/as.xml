@@ -2,26 +2,11 @@
 <flow id="b83e5b9e-6ec4-4841-b499-ce194449c272">
   <descriptionCdata><![CDATA[b83e5b9e-6ec4-4841-b499-ce194449c272.c8333305-1859-4a79-8ea0-a0dce916455b.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
 b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.description=<pre>Generates a random number.\n\nInputs\:\nmax - The maximum number that can be returned.\nmin - The minimum number that can be returned.\n\nResponses\:\nsuccess - The operation completed Successfully.\nfailure - Something went wrong.\n\nReturns\:\nA random number between max and min (inclusive)</pre>
-06fe8531-868b-4e79-aa7a-13a5e30a66ec.f0c1fbe1-eac3-415d-a55e-59410ddb9e43.prompt=Enter a value for min
-06fe8531-868b-4e79-aa7a-13a5e30a66ec.e2f75345-462d-4d3d-bf80-4c949a01f0bd.prompt=Enter a value for max]]></descriptionCdata>
-  <annotation/>
+]]></descriptionCdata>
+  <annotation></annotation>
   <name>as</name>
   <categories/>
-  <inputs>
-    <staticBinding id="778ca11b-bf7f-43a0-8cea-db3d66058e63">
-      <annotation></annotation>
-      <inputSymbol>input_0</inputSymbol>
-      <isList>false</isList>
-      <assignFromContext>false</assignFromContext>
-      <assignToContext>false</assignToContext>
-      <inputType>STRING</inputType>
-      <required>false</required>
-      <isPersisted>false</isPersisted>
-      <listDelimiter>,</listDelimiter>
-      <value></value>
-      <record>false</record>
-    </staticBinding>
-  </inputs>
+  <inputs/>
   <possibleResponses>
     <opResponse id="07637939-7721-4514-856b-2d185aaabb14">
       <annotation></annotation>
@@ -29,7 +14,7 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
       <isDefault>true</isDefault>
       <onFailure>false</onFailure>
       <type>RESOLVED</type>
-      <matchRules></matchRules>
+      <matchRules/>
     </opResponse>
     <opResponse id="b6dc352b-4e54-476b-8a9e-e994e164c739">
       <annotation></annotation>
@@ -37,7 +22,7 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
       <isDefault>false</isDefault>
       <onFailure>true</onFailure>
       <type>ERROR</type>
-      <matchRules></matchRules>
+      <matchRules/>
     </opResponse>
   </possibleResponses>
   <availableResultExpressions/>
@@ -79,10 +64,10 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
       <checkPointStep>true</checkPointStep>
       <historyCheckPointStep>true</historyCheckPointStep>
       <scriptResultStep>false</scriptResultStep>
-      <userPrompt/>
+      <userPrompt></userPrompt>
       <bindings>
         <userInputBinding id="1221d789-ec8f-4a17-8095-f2f57c71bed0">
-          <annotation/>
+          <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
           <inputType>STRING</inputType>
@@ -92,12 +77,12 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
           <inputSymbol>min</inputSymbol>
           <listDelimiter>,</listDelimiter>
           <record>false</record>
-          <prompt/>
+          <prompt></prompt>
           <isMultiSelect>false</isMultiSelect>
           <sourceDelimiter>|</sourceDelimiter>
         </userInputBinding>
         <userInputBinding id="bef0e12f-9db2-475f-9c7b-8e6f4e30ea9c">
-          <annotation/>
+          <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
           <inputType>STRING</inputType>
@@ -107,14 +92,14 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
           <inputSymbol>max</inputSymbol>
           <listDelimiter>,</listDelimiter>
           <record>false</record>
-          <prompt/>
+          <prompt></prompt>
           <isMultiSelect>false</isMultiSelect>
           <sourceDelimiter>|</sourceDelimiter>
         </userInputBinding>
       </bindings>
       <transitions>
         <transition id="382def4d-8a4f-4e1e-85d5-5b0de8f2e7a7">
-          <annotation/>
+          <annotation></annotation>
           <name>failure</name>
           <command>NEXT</command>
           <linkMode>false</linkMode>
@@ -143,7 +128,7 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
           </labelPosition>
         </transition>
         <transition id="d9786c33-20f2-4469-8748-0472b629406d">
-          <annotation/>
+          <annotation></annotation>
           <name>success</name>
           <command>NEXT</command>
           <linkMode>false</linkMode>
@@ -180,7 +165,7 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
       <throttleSize>0</throttleSize>
     </step>
     <returnStep id="d7387107-b2ac-4076-b3ab-f62803994e48">
-      <annotation/>
+      <annotation></annotation>
       <name>Resolved : success</name>
       <bounds>
         <x>840.0</x>
@@ -199,11 +184,11 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
       <checkPointStep>true</checkPointStep>
       <historyCheckPointStep>true</historyCheckPointStep>
       <scriptResultStep>false</scriptResultStep>
-      <userPrompt/>
+      <userPrompt></userPrompt>
       <bindings/>
       <transitions>
         <transition id="16ac2869-e2ec-4cd3-83ab-c75ad23fe466">
-          <annotation/>
+          <annotation></annotation>
           <name>return</name>
           <command>NEXT</command>
           <linkMode>false</linkMode>
@@ -224,7 +209,7 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
       <assignments/>
     </returnStep>
     <returnStep id="d80db365-0a0e-4659-ad90-8f4bf6b74382">
-      <annotation/>
+      <annotation></annotation>
       <name>Error : failure</name>
       <bounds>
         <x>360.0</x>
@@ -243,11 +228,11 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
       <checkPointStep>true</checkPointStep>
       <historyCheckPointStep>true</historyCheckPointStep>
       <scriptResultStep>false</scriptResultStep>
-      <userPrompt/>
+      <userPrompt></userPrompt>
       <bindings/>
       <transitions>
         <transition id="4b62d750-618b-45bd-b24b-f128a6287fe4">
-          <annotation/>
+          <annotation></annotation>
           <name>return</name>
           <command>NEXT</command>
           <linkMode>false</linkMode>
@@ -287,10 +272,10 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
       <checkPointStep>true</checkPointStep>
       <historyCheckPointStep>true</historyCheckPointStep>
       <scriptResultStep>false</scriptResultStep>
-      <userPrompt/>
+      <userPrompt></userPrompt>
       <bindings>
         <userInputBinding id="25870e86-0063-4e44-925a-d9efcffbf045">
-          <annotation/>
+          <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
           <inputType>STRING</inputType>
@@ -300,12 +285,12 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
           <inputSymbol>max</inputSymbol>
           <listDelimiter>,</listDelimiter>
           <record>false</record>
-          <prompt/>
+          <prompt></prompt>
           <isMultiSelect>false</isMultiSelect>
           <sourceDelimiter>|</sourceDelimiter>
         </userInputBinding>
         <userInputBinding id="fecb82fb-47b4-403d-9a71-ef7eb2ad028d">
-          <annotation/>
+          <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
           <inputType>STRING</inputType>
@@ -315,14 +300,14 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
           <inputSymbol>min</inputSymbol>
           <listDelimiter>,</listDelimiter>
           <record>false</record>
-          <prompt/>
+          <prompt></prompt>
           <isMultiSelect>false</isMultiSelect>
           <sourceDelimiter>|</sourceDelimiter>
         </userInputBinding>
       </bindings>
       <transitions>
         <transition id="7f40e3e1-3f0c-49bd-b0e1-079128efd8e1">
-          <annotation/>
+          <annotation></annotation>
           <name>failure</name>
           <command>NEXT</command>
           <linkMode>false</linkMode>
@@ -351,7 +336,7 @@ b83e5b9e-6ec4-4841-b499-ce194449c272.fc80a948-d024-4c32-80d3-6c6c88612475.descri
           </labelPosition>
         </transition>
         <transition id="387fe5b8-f374-442a-91e7-5fdd4c6ba251">
-          <annotation/>
+          <annotation></annotation>
           <name>success</name>
           <command>NEXT</command>
           <linkMode>false</linkMode>
