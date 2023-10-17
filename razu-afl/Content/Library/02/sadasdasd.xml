@@ -9,19 +9,8 @@
   <categories/>
   <inputs>
     <staticBinding id="991eb09e-9f0e-4089-a3d3-092bf3a416d9">
-      <inputSymbol>input_0</inputSymbol>
-      <isList>false</isList>
-      <assignFromContext>false</assignFromContext>
-      <assignToContext>false</assignToContext>
-      <inputType>STRING</inputType>
-      <required>false</required>
-      <isPersisted>false</isPersisted>
-      <listDelimiter>,</listDelimiter>
-      <record>false</record>
-    </staticBinding>
-    <staticBinding id="ef33b29e-494a-4594-8063-f26f199cd126">
       <annotation></annotation>
-      <inputSymbol>input_1</inputSymbol>
+      <inputSymbol>input_0</inputSymbol>
       <isList>false</isList>
       <assignFromContext>false</assignFromContext>
       <assignToContext>false</assignToContext>
