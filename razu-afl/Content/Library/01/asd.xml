@@ -32,6 +32,19 @@ df79a1d1-59c3-4c9a-851c-54131005ca9b.ff6d44a0-139f-4f14-86df-b12b4f9627d0.descri
       <value></value>
       <record>false</record>
     </staticBinding>
+    <staticBinding id="74605e71-d063-447c-bcbc-a961d4a98365">
+      <annotation></annotation>
+      <inputSymbol>input_2</inputSymbol>
+      <isList>false</isList>
+      <assignFromContext>false</assignFromContext>
+      <assignToContext>false</assignToContext>
+      <inputType>STRING</inputType>
+      <required>false</required>
+      <isPersisted>false</isPersisted>
+      <listDelimiter>,</listDelimiter>
+      <value></value>
+      <record>false</record>
+    </staticBinding>
   </inputs>
   <possibleResponses>
     <opResponse id="3738ac2c-7fd9-4705-a2ae-44f7de4f1a4c">

@@ -32,6 +32,19 @@
       <value></value>
       <record>false</record>
     </staticBinding>
+    <staticBinding id="50166616-1cf4-4eaf-88e8-a790485d17bc">
+      <annotation></annotation>
+      <inputSymbol>input_2</inputSymbol>
+      <isList>false</isList>
+      <assignFromContext>false</assignFromContext>
+      <assignToContext>false</assignToContext>
+      <inputType>STRING</inputType>
+      <required>false</required>
+      <isPersisted>false</isPersisted>
+      <listDelimiter>,</listDelimiter>
+      <value></value>
+      <record>false</record>
+    </staticBinding>
   </inputs>
   <possibleResponses>
     <opResponse id="329f96ca-ced9-4425-be13-099148a91136">
